@@ -399,14 +399,14 @@
 <section id="download">
   <div class="wrap run">
     <div class="sec-label">Download</div>
-    <h2 class="sec-title">拿走它 · 绿色版单文件</h2>
-    <p class="sec-desc" style="margin:0 auto">下载、双击、开始写。没有安装向导，没有捆绑，也没有后台常驻。</p>
-    <div class="btns" style="margin-top:30px; display:flex; justify-content:center">
-      <a class="btn btn-primary" href="https://github.com/sui7622/notepad-site/releases/latest/download/notepad-1.0.0-windows.exe">下载 记事本 1.0.0</a>
+    <h2 class="sec-title">拿走它 · 带完整卸载的安装版</h2>
+    <p class="sec-desc" style="margin:0 auto">桌面图标、开始菜单、控制面板可卸载，卸载时连配置一起清干净。</p>
+    <div class="btns" style="margin-top:30px; display:flex; justify-content:center; flex-wrap:wrap; gap:12px">
+      <a class="btn btn-primary" href="https://github.com/sui7622/notepad-site/releases/latest/download/notepad-1.0.0-setup.exe">下载 记事本 1.0.0</a>
     </div>
-    <p class="meta">Windows 10 / 11 · x64 · 免安装便携版 · 文件与设置都在 %APPDATA% 下</p>
+    <p class="meta">Windows 10 / 11 · x64 · 安装版 · 约 116 MB</p>
     <div class="note" style="max-width:640px; margin:28px auto 0; text-align:left">
-      <b>首次启动</b>会解压到临时目录，等几秒属正常；没买签名证书，Windows 可能提示「已保护你的电脑」，点 <b>更多信息 → 仍要运行</b> 即可。不配 AI Key 也能用，编辑、保存、主题全部离线。
+      <b>安装</b>默认装到 <b>%LOCALAPPDATA%\Programs\记事本</b>，过程中可以改路径，不需要管理员权限。<b>卸载</b>走控制面板「程序和功能」，会连同 <b>%APPDATA%\electron-notepad</b> 里的配置、会话和 API Key 一起删除，不留残留。没买签名证书，Windows 可能提示「已保护你的电脑」，点 <b>更多信息 → 仍要运行</b> 即可。
     </div>
   </div>
 </section>
